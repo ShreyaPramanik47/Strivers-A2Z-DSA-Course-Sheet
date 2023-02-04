@@ -1,4 +1,4 @@
-// Leetcode
+// Leetcode**
 class Solution {
 public:
     bool isPalindrome(string s) {
@@ -21,7 +21,7 @@ public:
 };
 
 
-// GFG
+// GFG**
 class Solution{
 public:	
 	
@@ -37,6 +37,25 @@ public:
 	            end--;
 	        }
 	        else{
+	            return 0;
+	        }
+	    }
+	    return 1;
+	}
+
+};
+// Other Process
+class Solution{
+public:	
+	
+	
+	int isPalindrome(string S)
+	{
+	    // Your code goes here
+	    int len = S.length()-1;
+	    int l = S.length();
+	    for(int i=0; i<l/2; i++){
+	        if(S[i]!=S[len-i]){
 	            return 0;
 	        }
 	    }
