@@ -1,0 +1,16 @@
+void fun(vector<int>&ans , int i , int x){
+    if(x<i){
+        return;
+    }
+    ans.push_back(x);
+    fun(ans,i,x-1);
+
+}
+vector<int> printNos(int x) {
+    // Write Your Code Here
+    int i=1;
+    vector<int>ans;
+    fun(ans,i,x);
+    return ans;
+    
+}
