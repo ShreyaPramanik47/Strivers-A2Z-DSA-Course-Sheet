@@ -1,0 +1,14 @@
+void rev(int n,vector<int> &nums, int i ){
+    if(i>=n/2){
+        return;
+    }
+    swap(nums[i], nums[(n-1)-i]);
+    rev(n,nums,i+1);
+}
+vector<int> reverseArray(int n, vector<int> &nums)
+{
+    // Write your code here.
+    rev(n,nums,0);
+    return nums;
+
+}
