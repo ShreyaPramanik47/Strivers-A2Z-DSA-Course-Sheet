@@ -11,7 +11,7 @@ int isSorted(int n, vector<int> a) {
 // T.C = O(N)
 // S.C = O(1)
 
-
+ 
 // LEETCODE - 1752. Check if Array Is Sorted and Rotated
 class Solution {
 public:
