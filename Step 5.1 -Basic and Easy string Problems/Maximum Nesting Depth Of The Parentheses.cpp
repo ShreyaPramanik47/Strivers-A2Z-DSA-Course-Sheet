@@ -6,7 +6,7 @@ int maxDepth(string s) {
 		if(s[i]=='(')
 		ans++;
 		else if(s[i]==')')
-		ans--;
+		ans--; 
 
 		maxans= max(ans,maxans);
 	}
