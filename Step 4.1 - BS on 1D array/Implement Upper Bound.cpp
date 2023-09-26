@@ -15,3 +15,5 @@ int upperBound(vector<int> &arr, int x, int n){
 	}	
 	return ans;
 }
+
+// T.C = O(log N)
